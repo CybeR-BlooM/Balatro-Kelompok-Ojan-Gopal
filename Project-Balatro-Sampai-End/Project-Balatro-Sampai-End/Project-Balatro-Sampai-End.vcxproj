@@ -125,6 +125,10 @@
   <ItemGroup>
     <ClCompile Include="Project-Balatro-Sampai-End.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameTypes.h" />
+    <ClInclude Include="Hand.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
