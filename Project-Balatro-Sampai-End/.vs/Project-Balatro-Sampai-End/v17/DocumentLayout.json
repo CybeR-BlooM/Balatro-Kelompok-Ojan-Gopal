@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Project-Balatro-Sampai-End.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-05T14:50:35.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
