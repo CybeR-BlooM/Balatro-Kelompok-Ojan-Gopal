@@ -126,12 +126,14 @@
     <ClCompile Include="CoreComponents.cpp" />
     <ClCompile Include="PokerHandChecker.cpp" />
     <ClCompile Include="Project-Balatro-Sampai-End.cpp" />
+    <ClCompile Include="ScoringRule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CoreComponents.h" />
     <ClInclude Include="GameTypes.h" />
     <ClInclude Include="Hand.h" />
     <ClInclude Include="PokerHandChecker.h" />
+    <ClInclude Include="ScoringRule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
