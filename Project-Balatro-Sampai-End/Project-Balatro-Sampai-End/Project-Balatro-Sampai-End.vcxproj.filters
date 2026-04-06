@@ -18,12 +18,24 @@
     <ClCompile Include="Project-Balatro-Sampai-End.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PokerHandChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreComponents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Hand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PokerHandChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreComponents.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
