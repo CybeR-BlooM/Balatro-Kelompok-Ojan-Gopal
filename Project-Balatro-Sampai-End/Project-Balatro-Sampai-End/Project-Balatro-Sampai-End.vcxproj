@@ -124,18 +124,44 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CoreComponents.cpp" />
+    <ClCompile Include="FiveOfAKindChecker.cpp" />
+    <ClCompile Include="FlushChecker.cpp" />
+    <ClCompile Include="FlushFiveChecker.cpp" />
+    <ClCompile Include="FlushHouseChecker.cpp" />
+    <ClCompile Include="FourOfAKindChecker.cpp" />
+    <ClCompile Include="FullHouseChecker.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="HighCardChecker.cpp" />
+    <ClCompile Include="PairChecker.cpp" />
     <ClCompile Include="PokerHandChecker.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RoyalFlushChecker.cpp" />
     <ClCompile Include="ScoringRule.cpp" />
+    <ClCompile Include="StraightChecker.cpp" />
+    <ClCompile Include="StraightFlushChecker.cpp" />
+    <ClCompile Include="ThreeOfAKindChecker.cpp" />
+    <ClCompile Include="TwoPairChecker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CoreComponents.h" />
+    <ClInclude Include="FiveOfAKindChecker.h" />
+    <ClInclude Include="FlushChecker.h" />
+    <ClInclude Include="FlushFiveChecker.h" />
+    <ClInclude Include="FlushHouseChecker.h" />
+    <ClInclude Include="FourOfAKindChecker.h" />
+    <ClInclude Include="FullHouseChecker.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="GameTypes.h" />
     <ClInclude Include="Hand.h" />
+    <ClInclude Include="HighCardChecker.h" />
+    <ClInclude Include="PairChecker.h" />
     <ClInclude Include="PokerHandChecker.h" />
+    <ClInclude Include="RoyalFlushChecker.h" />
     <ClInclude Include="ScoringRule.h" />
+    <ClInclude Include="StraightChecker.h" />
+    <ClInclude Include="StraightFlushChecker.h" />
+    <ClInclude Include="ThreeOfAKindChecker.h" />
+    <ClInclude Include="TwoPairChecker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
