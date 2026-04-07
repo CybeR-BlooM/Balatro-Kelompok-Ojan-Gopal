@@ -68,12 +68,25 @@ int ScoringRule::scoreHand(const Hand& hand) {
 
 int ScoringRule::convertRankToScore(HandRank rank) {
     int score = 0;
-
-    // (DUMMY SEMENTARA) Nanti Programmer Mekanik yang mengisi nilai asli setiap ranking
-    if (rank == HandRank::HighCard) score = 100;
-    else if (rank == HandRank::FlushFive) score = 5000;
-    // dan seterusnya...
-
-    std::cout << "=> Evaluasi Selesai! Skor Dasar Kartu: " << score << "\n";
+    
+    // MEKANIK MENGATUR BALANCING SKOR DI SINI
+    switch (rank) {
+        case HandRank::FlushFive:     score = 5000; break;
+        case HandRank::FlushHouse:    score = 4500; break;
+        case HandRank::FiveOfAKind:   score = 4000; break;
+        case HandRank::RoyalFlush:    score = 3500; break;
+        case HandRank::StraightFlush: score = 3000; break;
+        case HandRank::FourOfAKind:   score = 2500; break;
+        case HandRank::FullHouse:     score = 2000; break;
+        case HandRank::Flush:         score = 1500; break;
+        case HandRank::Straight:      score = 1200; break;
+        case HandRank::ThreeOfAKind:  score = 1000; break;
+        case HandRank::TwoPair:       score = 800; break;
+        case HandRank::Pair:          score = 500; break;
+        case HandRank::HighCard:      score = 100; break;
+        default:                      score = 0; break;
+    }
+    
+    std::cout << "=> Evaluasi Selesai! Skor Dasar Kombinasi Kartu adalah: " << score << "\n";
     return score;
 }
