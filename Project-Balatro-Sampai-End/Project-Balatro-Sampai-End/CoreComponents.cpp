@@ -8,7 +8,17 @@ Hand HandGenerator::generateHand() {
 
 Hand HandPlayer::generateHand() {
     std::cout << "[Fase 2] Pemain memilih kartu untuk dimainkan...\n";
-    return Hand();
+    
+    Hand testHand;
+    
+    // ==========================================
+    // AREA TESTING MEKANIK (UBAH-UBAH DI SINI)
+    // Coba ganti menjadi HandRank::Pair, HandRank::Flush, dll.
+    // ==========================================
+    testHand.forcedRank = HandRank::FullHouse; 
+    std::cout << "   (Skenario Test: Pemain seolah-olah mengeluarkan Full House)\n";
+    
+    return testHand;
 }
 
 bool BlindRule::checkBlind(int score) {
