@@ -1,7 +1,9 @@
 #pragma once
+#include "GameTypes.h"
 
 class Hand {
 public:
-    // Nanti Programmer Mekanik yang mengisi atribut vector array untuk kartu aslinya
-    int dummyData = 0;
+    // DUMMY TESTER: Variabel ini digunakan mekanik untuk mengetes rantai.
+    // Nanti di tugas selanjutnya, ini akan diganti dengan kumpulan kartu asli (Vector/Array).
+    HandRank forcedRank = HandRank::None; 
 };
