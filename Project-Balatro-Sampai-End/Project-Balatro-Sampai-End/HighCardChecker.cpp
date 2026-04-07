@@ -2,7 +2,7 @@
 #include <iostream>
 
 HandRank HighCardChecker::check(const Hand& hand) {
-    std::cout << "-> Mengecek High Card...\n";
-    // Ujung rantai: Selalu me-return High Card tanpa melempar ke nextChecker
-    return HandRank::HighCard;
+    std::cout << "-> Mengecek apakah kartu ini High Card...\n";
+    std::cout << "   [!] Mentok di bawah. Tidak ada kombinasi. Ini adalah High Card!\n";
+    return HandRank::HighCard; 
 }
