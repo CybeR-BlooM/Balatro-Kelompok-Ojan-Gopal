@@ -1,0 +1,20 @@
+﻿  CoreComponents.cpp
+  FiveOfAKindChecker.cpp
+  FlushChecker.cpp
+  FlushFiveChecker.cpp
+  FlushHouseChecker.cpp
+  FourOfAKindChecker.cpp
+  FullHouseChecker.cpp
+  GameManager.cpp
+  HighCardChecker.cpp
+  PairChecker.cpp
+  PokerHandChecker.cpp
+  main.cpp
+  RoyalFlushChecker.cpp
+  ScoringRule.cpp
+  StraightChecker.cpp
+  StraightFlushChecker.cpp
+  ThreeOfAKindChecker.cpp
+  TwoPairChecker.cpp
+  Generating Code...
+  Project-Balatro-Sampai-End.vcxproj -> F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\x64\Debug\Project-Balatro-Sampai-End.exe
