@@ -132,6 +132,7 @@
     <ClCompile Include="FullHouseChecker.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="HandGenerator.cpp" />
+    <ClCompile Include="HandPlayer.cpp" />
     <ClCompile Include="HighCardChecker.cpp" />
     <ClCompile Include="PairChecker.cpp" />
     <ClCompile Include="PokerHandChecker.cpp" />
@@ -157,6 +158,7 @@
     <ClInclude Include="GameTypes.h" />
     <ClInclude Include="Hand.h" />
     <ClInclude Include="HandGenerator.h" />
+    <ClInclude Include="HandPlayer.h" />
     <ClInclude Include="HighCardChecker.h" />
     <ClInclude Include="PairChecker.h" />
     <ClInclude Include="PokerHandChecker.h" />
