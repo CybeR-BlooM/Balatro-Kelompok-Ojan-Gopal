@@ -1,17 +1,10 @@
-﻿  ChosenHand.cpp
-  FiveOfAKindChecker.cpp
+﻿  FiveOfAKindChecker.cpp
   FlushChecker.cpp
 F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FiveOfAKindChecker.cpp(15,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
   FlushFiveChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushFiveChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
-      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
-      see declaration of 'Hand'
-  
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushFiveChecker.cpp(27,31): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
   FlushHouseChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushHouseChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
-      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
-      see declaration of 'Hand'
-  
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushHouseChecker.cpp(29,31): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
   FourOfAKindChecker.cpp
 F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FourOfAKindChecker.cpp(15,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
   FullHouseChecker.cpp
@@ -22,23 +15,10 @@ F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro
   PairChecker.cpp
 F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\PairChecker.cpp(18,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
   PokerHandChecker.cpp
-  main.cpp
   RoyalFlushChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\RoyalFlushChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
-      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
-      see declaration of 'Hand'
-  
   ScoringRule.cpp
   StraightChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\StraightChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
-      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
-      see declaration of 'Hand'
-  
   StraightFlushChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\StraightFlushChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
-      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
-      see declaration of 'Hand'
-  
   ThreeOfAKindChecker.cpp
 F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\ThreeOfAKindChecker.cpp(15,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
   TwoPairChecker.cpp
