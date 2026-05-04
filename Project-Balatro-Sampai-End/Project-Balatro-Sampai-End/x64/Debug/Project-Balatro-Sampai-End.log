@@ -1,26 +1,2 @@
-﻿  FiveOfAKindChecker.cpp
-  FlushChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FiveOfAKindChecker.cpp(15,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  FlushFiveChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushFiveChecker.cpp(27,31): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  FlushHouseChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushHouseChecker.cpp(29,31): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  FourOfAKindChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FourOfAKindChecker.cpp(15,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  FullHouseChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FullHouseChecker.cpp(17,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  GameManager.cpp
-  HandPlayer.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\HandPlayer.cpp(4,56): error C1075: '{': no matching token found
-  PairChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\PairChecker.cpp(18,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  PokerHandChecker.cpp
-  RoyalFlushChecker.cpp
-  ScoringRule.cpp
-  StraightChecker.cpp
-  StraightFlushChecker.cpp
-  ThreeOfAKindChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\ThreeOfAKindChecker.cpp(15,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  TwoPairChecker.cpp
-F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\TwoPairChecker.cpp(15,27): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-  Generating Code...
+﻿  StraightFlushChecker.cpp
+  Project-Balatro-Sampai-End.vcxproj -> F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\x64\Debug\Project-Balatro-Sampai-End.exe
