@@ -1,9 +1,7 @@
 #pragma once
-#include "GameTypes.h"
+#include <vector>
+#include "Card.h"
 
-class Hand {
-public:
-    // DUMMY TESTER: Variabel ini digunakan mekanik untuk mengetes rantai.
-    // Nanti di tugas selanjutnya, ini akan diganti dengan kumpulan kartu asli (Vector/Array).
-    HandRank forcedRank = HandRank::None; 
+struct Hand {
+    std::vector<Card> cards; // Sekarang berisi kumpulan objek kartu sungguhan
 };
