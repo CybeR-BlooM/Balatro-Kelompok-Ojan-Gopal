@@ -1,12 +1,30 @@
 #include "FiveOfAKindChecker.h"
 #include <iostream>
+#include <map>
 
 HandRank FiveOfAKindChecker::check(const Hand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Five of a Kind...\n";
-    if (hand.forcedRank == HandRank::FiveOfAKind) {
-        std::cout << "   [!] MATCH! Kombinasi Five of a Kind ditemukan!\n";
-        return HandRank::FiveOfAKind;
+
+    if (hand.cards.size() == 5) {
+        std::map<int, int> rankCounts;
+        for (const Card& c : hand.cards) {
+            rankCounts[c.rank]++;
+        }
+
+        bool hasFive = false;
+        for (auto const& [rank, count] : rankCounts) {
+            if (count == 5) {
+                hasFive = true;
+                break;
+            }
+        }
+
+        if (hasFive) {
+            std::cout << "   [!] MATCH! Kombinasi Five of a Kind ditemukan!\n";
+            return HandRank::FiveOfAKind;
+        }
     }
+
     if (nextChecker) return nextChecker->check(hand);
     return HandRank::None;
 }
