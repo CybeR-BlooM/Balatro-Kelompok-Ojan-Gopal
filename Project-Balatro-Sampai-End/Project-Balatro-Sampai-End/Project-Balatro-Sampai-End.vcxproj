@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h" />
+    <ClInclude Include="ChosenHand.h" />
     <ClInclude Include="CoreComponents.h" />
     <ClInclude Include="FiveOfAKindChecker.h" />
     <ClInclude Include="FlushChecker.h" />
