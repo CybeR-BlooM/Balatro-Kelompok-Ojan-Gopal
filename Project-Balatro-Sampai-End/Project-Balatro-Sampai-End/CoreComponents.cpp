@@ -1,26 +1,6 @@
 #include "CoreComponents.h"
 #include <iostream>
 
-Hand HandGenerator::generateHand() {
-    std::cout << "[Fase 1] Sistem membagikan kartu ke pemain...\n";
-    return Hand();
-}
-
-Hand HandPlayer::generateHand() {
-    std::cout << "[Fase 2] Pemain memilih kartu untuk dimainkan...\n";
-    
-    Hand testHand;
-    
-    // ==========================================
-    // AREA TESTING MEKANIK (UBAH-UBAH DI SINI)
-    // Coba ganti menjadi HandRank::Pair, HandRank::Flush, dll.
-    // ==========================================
-    testHand.forcedRank = HandRank::FullHouse; 
-    std::cout << "   (Skenario Test: Pemain seolah-olah mengeluarkan Full House)\n";
-    
-    return testHand;
-}
-
 bool BlindRule::checkBlind(int score) {
     std::cout << "[Fase 4] Mengecek apakah Skor (" << score << ") mengalahkan Blind (Target: 1000)...\n";
     return score >= 1000;

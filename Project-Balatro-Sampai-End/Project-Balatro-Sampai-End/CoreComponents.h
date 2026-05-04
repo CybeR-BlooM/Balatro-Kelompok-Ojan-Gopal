@@ -1,15 +1,5 @@
 #pragma once
-#include "Hand.h"
-
-class HandGenerator {
-public:
-    Hand generateHand();
-};
-
-class HandPlayer {
-public:
-    Hand generateHand();
-};
+// #include "Hand.h" dihapus dari sini karena BlindRule dan RewardRule tidak butuh Hand.
 
 class BlindRule {
 public:

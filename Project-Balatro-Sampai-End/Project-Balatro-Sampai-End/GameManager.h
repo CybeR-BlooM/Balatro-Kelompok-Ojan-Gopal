@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreComponents.h"
+#include "HandGenerator.h"
 #include "ScoringRule.h"
 
 class GameManager {
