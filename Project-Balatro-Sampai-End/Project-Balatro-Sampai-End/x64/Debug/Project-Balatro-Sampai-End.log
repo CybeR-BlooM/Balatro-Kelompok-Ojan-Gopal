@@ -1,0 +1,73 @@
+﻿  ChosenHand.cpp
+  CoreComponents.cpp
+  FiveOfAKindChecker.cpp
+  FlushChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FiveOfAKindChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  FlushFiveChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushFiveChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  FlushHouseChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FlushHouseChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  FourOfAKindChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FourOfAKindChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  FullHouseChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\FullHouseChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  GameManager.cpp
+  HandGenerator.cpp
+  HandPlayer.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\HandPlayer.cpp(15,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  HighCardChecker.cpp
+  PairChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\PairChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  PokerHandChecker.cpp
+  main.cpp
+  RoyalFlushChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\RoyalFlushChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  ScoringRule.cpp
+  StraightChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\StraightChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  StraightFlushChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\StraightFlushChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  ThreeOfAKindChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\ThreeOfAKindChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  Generating Code...
+  Compiling...
+  TwoPairChecker.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\TwoPairChecker.cpp(6,14): error C2039: 'forcedRank': is not a member of 'Hand'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\Hand.h(5,8):
+      see declaration of 'Hand'
+  
+  Generating Code...

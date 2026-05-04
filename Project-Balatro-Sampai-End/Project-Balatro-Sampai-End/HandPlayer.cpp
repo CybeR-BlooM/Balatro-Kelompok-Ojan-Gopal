@@ -12,12 +12,13 @@ ChosenHand HandPlayer::playHand(const Hand& dealtHand) {
 
     // Pastikan kita tidak mengambil lebih dari jumlah kartu yang ada
     if (dealtHand.cards.size() < 5) {
-        cardsToPick = dealtHand.cards.size();
-    }
-
-    for (int i = 0; i < cardsToPick; ++i) {
-        chosen.addChosenCard(dealtHand.cards[i]);
-    }
+        size_t cardsToPick = 5; // Ubah int jadi size_t
+        if (dealtHand.cards.size() < 5) {
+            cardsToPick = dealtHand.cards.size();
+        }
+        for (size_t i = 0; i < cardsToPick; ++i) { // Ubah int i jadi size_t i
+            chosen.addChosenCard(dealtHand.cards[i]);
+        }
 
     // Tampilkan ke terminal kartu apa saja yang terpilih
     chosen.printChosenCards();
