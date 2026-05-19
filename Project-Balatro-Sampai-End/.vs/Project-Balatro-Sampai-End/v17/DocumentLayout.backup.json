@@ -186,8 +186,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StraightFlushChecker.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T16:44:09.498Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -198,8 +211,7 @@
               "RelativeToolTip": "Project-Balatro-Sampai-End\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-05T14:50:35.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T14:50:35.257Z"
             },
             {
               "$type": "Document",
@@ -235,8 +247,7 @@
               "RelativeToolTip": "Project-Balatro-Sampai-End\\HandPlayer.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T04:30:08.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T04:30:08.016Z"
             },
             {
               "$type": "Document",
@@ -249,19 +260,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-06T15:39:58.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StraightFlushChecker.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "ViewState": "AgIAABwAAAAAAAAAAADwvyUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T16:44:09.498Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

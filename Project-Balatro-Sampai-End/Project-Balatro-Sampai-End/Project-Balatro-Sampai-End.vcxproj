@@ -165,6 +165,7 @@
     <ClInclude Include="PairChecker.h" />
     <ClInclude Include="PokerHandChecker.h" />
     <ClInclude Include="RoyalFlushChecker.h" />
+    <ClInclude Include="ScoreContext.h" />
     <ClInclude Include="ScoringRule.h" />
     <ClInclude Include="StraightChecker.h" />
     <ClInclude Include="StraightFlushChecker.h" />
