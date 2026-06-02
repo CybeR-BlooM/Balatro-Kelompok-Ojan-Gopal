@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm>
 
-HandRank StraightFlushChecker::check(const Hand& hand) {
+HandRank StraightFlushChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Straight Flush...\n";
 
     if (hand.cards.size() == 5) {

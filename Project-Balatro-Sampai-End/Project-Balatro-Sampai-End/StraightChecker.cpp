@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm> // Wajib di-include untuk menggunakan std::sort
 
-HandRank StraightChecker::check(const Hand& hand) {
+HandRank StraightChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Straight...\n";
 
     // Pastikan kartu yang dimainkan tepat 5 kartu

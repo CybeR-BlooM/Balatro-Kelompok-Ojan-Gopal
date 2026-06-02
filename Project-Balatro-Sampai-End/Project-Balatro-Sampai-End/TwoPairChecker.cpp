@@ -2,7 +2,7 @@
 #include <iostream>
 #include <map>
 
-HandRank TwoPairChecker::check(const Hand& hand) {
+HandRank TwoPairChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Two Pair...\n";
 
     if (hand.cards.size() == 5) {

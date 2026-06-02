@@ -2,7 +2,8 @@
 #include <iostream>
 #include <map>
 
-HandRank FiveOfAKindChecker::check(const Hand& hand) {
+// === [PERUBAHAN HANYA DI BARIS INI] ===
+HandRank FiveOfAKindChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Five of a Kind...\n";
 
     if (hand.cards.size() == 5) {

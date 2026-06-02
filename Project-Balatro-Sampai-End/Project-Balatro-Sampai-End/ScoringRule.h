@@ -1,5 +1,6 @@
 #pragma once
-#include "Hand.h"
+// HAPUS #include "Hand.h" karena kita tidak menggunakannya lagi di sini
+#include "ChosenHand.h" // TAMBAHKAN struktur data yang baru
 #include "GameTypes.h"
 #include "PokerHandChecker.h"
 
@@ -11,6 +12,8 @@ public:
     ScoringRule();  // Constructor
     ~ScoringRule(); // Destructor
 
-    int scoreHand(const Hand& hand);
+    // UBAH parameter dari 'const Hand&' menjadi 'const ChosenHand&'
+    int scoreHand(const ChosenHand& hand);
+
     int convertRankToScore(HandRank rank);
 };

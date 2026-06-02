@@ -56,7 +56,9 @@ ScoringRule::~ScoringRule() {
     // Untuk tahap awal ini biarkan kosong tidak apa-apa agar fokus ke jalan programnya dulu.
 }
 
-int ScoringRule::scoreHand(const Hand& hand) {
+// === [PERUBAHAN ADA DI BARIS INI] ===
+// Parameter diubah dari (const Hand& hand) menjadi (const ChosenHand& hand)
+int ScoringRule::scoreHand(const ChosenHand& hand) {
     std::cout << "[Fase 3] ScoringRule mengirim kartu ke Chain of Responsibility...\n";
 
     // Ini akan memicu rantai berjalan dari FlushFive sampai ketemu hasilnya
@@ -65,28 +67,29 @@ int ScoringRule::scoreHand(const Hand& hand) {
     // Ubah hasil (misal: "Pair") jadi angka skor (misal: 100)
     return convertRankToScore(rank);
 }
+// ===================================
 
 int ScoringRule::convertRankToScore(HandRank rank) {
     int score = 0;
-    
+
     // MEKANIK MENGATUR BALANCING SKOR DI SINI
     switch (rank) {
-        case HandRank::FlushFive:     score = 5000; break;
-        case HandRank::FlushHouse:    score = 4500; break;
-        case HandRank::FiveOfAKind:   score = 4000; break;
-        case HandRank::RoyalFlush:    score = 3500; break;
-        case HandRank::StraightFlush: score = 3000; break;
-        case HandRank::FourOfAKind:   score = 2500; break;
-        case HandRank::FullHouse:     score = 2000; break;
-        case HandRank::Flush:         score = 1500; break;
-        case HandRank::Straight:      score = 1200; break;
-        case HandRank::ThreeOfAKind:  score = 1000; break;
-        case HandRank::TwoPair:       score = 800; break;
-        case HandRank::Pair:          score = 500; break;
-        case HandRank::HighCard:      score = 100; break;
-        default:                      score = 0; break;
+    case HandRank::FlushFive:     score = 5000; break;
+    case HandRank::FlushHouse:    score = 4500; break;
+    case HandRank::FiveOfAKind:   score = 4000; break;
+    case HandRank::RoyalFlush:    score = 3500; break;
+    case HandRank::StraightFlush: score = 3000; break;
+    case HandRank::FourOfAKind:   score = 2500; break;
+    case HandRank::FullHouse:     score = 2000; break;
+    case HandRank::Flush:         score = 1500; break;
+    case HandRank::Straight:      score = 1200; break;
+    case HandRank::ThreeOfAKind:  score = 1000; break;
+    case HandRank::TwoPair:       score = 800; break;
+    case HandRank::Pair:          score = 500; break;
+    case HandRank::HighCard:      score = 100; break;
+    default:                      score = 0; break;
     }
-    
+
     std::cout << "=> Evaluasi Selesai! Skor Dasar Kombinasi Kartu adalah: " << score << "\n";
     return score;
 }

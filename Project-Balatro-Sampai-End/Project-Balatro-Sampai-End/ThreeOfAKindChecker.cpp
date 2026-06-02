@@ -2,7 +2,7 @@
 #include <iostream>
 #include <map>
 
-HandRank ThreeOfAKindChecker::check(const Hand& hand) {
+HandRank ThreeOfAKindChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Three of a Kind...\n";
 
     if (hand.cards.size() == 5) {

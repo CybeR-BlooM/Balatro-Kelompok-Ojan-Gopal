@@ -2,7 +2,7 @@
 #include <iostream>
 #include <map>
 
-HandRank FlushHouseChecker::check(const Hand& hand) {
+HandRank FlushHouseChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Flush House...\n";
 
     if (hand.cards.size() == 5) {

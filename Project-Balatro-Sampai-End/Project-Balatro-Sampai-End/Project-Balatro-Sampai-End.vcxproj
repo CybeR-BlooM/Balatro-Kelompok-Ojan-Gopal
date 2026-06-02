@@ -164,6 +164,7 @@
     <ClInclude Include="Hand.h" />
     <ClInclude Include="HandGenerator.h" />
     <ClInclude Include="HandPlayer.h" />
+    <ClInclude Include="HandState.h" />
     <ClInclude Include="HighCardChecker.h" />
     <ClInclude Include="Joker.h" />
     <ClInclude Include="JokerManager.h" />

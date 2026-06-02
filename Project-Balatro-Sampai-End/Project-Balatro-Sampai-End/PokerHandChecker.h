@@ -1,5 +1,5 @@
 #pragma once
-#include "Hand.h"
+#include "ChosenHand.h"
 #include "GameTypes.h"
 
 class PokerHandChecker {
@@ -9,9 +9,9 @@ protected:
 public:
     virtual ~PokerHandChecker() = default;
 
-    // Fungsi untuk menyambungkan rantai
+    // HANYA DEKLARASI (Tubuhnya kita biarkan di .cpp)
     void setNext(PokerHandChecker* next);
 
-    // Pure virtual function: Memaksa semua class turunan (12 Checker) untuk membuat fungsi ini
-    virtual HandRank check(const Hand& hand) = 0;
+    // Pure virtual function
+    virtual HandRank check(const ChosenHand& hand) = 0;
 };

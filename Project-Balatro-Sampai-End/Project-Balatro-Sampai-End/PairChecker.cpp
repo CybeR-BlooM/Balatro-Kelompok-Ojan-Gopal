@@ -2,7 +2,7 @@
 #include <iostream>
 #include <map> // Wajib di-include untuk menggunakan Tabel Frekuensi
 
-HandRank PairChecker::check(const Hand& hand) {
+HandRank PairChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Pair...\n";
 
     if (hand.cards.size() == 5) {

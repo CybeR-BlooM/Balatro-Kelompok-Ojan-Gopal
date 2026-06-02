@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm>
 
-HandRank RoyalFlushChecker::check(const Hand& hand) {
+HandRank RoyalFlushChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Royal Flush...\n";
 
     if (hand.cards.size() == 5) {

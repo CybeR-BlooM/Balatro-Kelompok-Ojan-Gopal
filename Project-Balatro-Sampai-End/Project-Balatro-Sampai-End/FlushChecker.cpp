@@ -1,7 +1,7 @@
 #include "FlushChecker.h"
 #include <iostream>
 
-HandRank FlushChecker::check(const Hand& hand) {
+HandRank FlushChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Flush...\n";
     
     // Pastikan ada 5 kartu yang dimainkan

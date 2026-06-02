@@ -3,5 +3,5 @@
 
 class ThreeOfAKindChecker : public PokerHandChecker {
 public:
-    HandRank check(const Hand& hand) override;
+    HandRank check(const ChosenHand& hand) override;
 };

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <map>
 
-HandRank FullHouseChecker::check(const Hand& hand) {
+HandRank FullHouseChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Full House...\n";
 
     if (hand.cards.size() == 5) {
