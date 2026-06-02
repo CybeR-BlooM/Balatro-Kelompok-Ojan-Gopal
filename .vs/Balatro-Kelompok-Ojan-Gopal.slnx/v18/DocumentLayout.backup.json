@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Momio\\Documents\\POLITEKNIK ELEKTRONIKA NEGERI SURABAYA\\Semester 4\\P. Design Patern\\Balatro-Kelompok-Ojan-Gopal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Momio\\Documents\\POLITEKNIK ELEKTRONIKA NEGERI SURABAYA\\Semester 4\\P. Design Patern\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Momio\\Documents\\POLITEKNIK ELEKTRONIKA NEGERI SURABAYA\\Semester 4\\P. Design Patern\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChosenHand.cpp",
+              "DocumentMoniker": "C:\\Users\\Momio\\Documents\\POLITEKNIK ELEKTRONIKA NEGERI SURABAYA\\Semester 4\\P. Design Patern\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "ToolTip": "C:\\Users\\Momio\\Documents\\POLITEKNIK ELEKTRONIKA NEGERI SURABAYA\\Semester 4\\P. Design Patern\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T05:31:47.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.h",
+              "DocumentMoniker": "C:\\Users\\Momio\\Documents\\POLITEKNIK ELEKTRONIKA NEGERI SURABAYA\\Semester 4\\P. Design Patern\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h",
+              "ToolTip": "C:\\Users\\Momio\\Documents\\POLITEKNIK ELEKTRONIKA NEGERI SURABAYA\\Semester 4\\P. Design Patern\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-02T05:31:45.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
