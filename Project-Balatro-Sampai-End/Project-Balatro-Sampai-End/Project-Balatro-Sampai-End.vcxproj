@@ -126,6 +126,7 @@
   <ItemGroup>
     <ClCompile Include="ChosenHand.cpp" />
     <ClCompile Include="CoreComponents.cpp" />
+    <ClCompile Include="Deck.cpp" />
     <ClCompile Include="FiveOfAKindChecker.cpp" />
     <ClCompile Include="FlushChecker.cpp" />
     <ClCompile Include="FlushFiveChecker.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="Card.h" />
     <ClInclude Include="ChosenHand.h" />
     <ClInclude Include="CoreComponents.h" />
+    <ClInclude Include="Deck.h" />
     <ClInclude Include="FiveOfAKindChecker.h" />
     <ClInclude Include="FlushChecker.h" />
     <ClInclude Include="FlushFiveChecker.h" />
