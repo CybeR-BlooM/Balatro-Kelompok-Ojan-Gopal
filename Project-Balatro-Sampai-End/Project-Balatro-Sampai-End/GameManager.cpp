@@ -1,48 +1,124 @@
 #include "GameManager.h"
-#include "Blueprintjoker.h" // Masukkan gudang Jokermu
 #include <iostream>
-#include <random>           // Untuk sistem acak
-#include <ctime>            // Untuk seed waktu nyata
 
-// ... (Biarkan constructor GameManager() utuh) ...
+GameManager::GameManager() {
+    // Inisialisasi status awal (Bisa disesuaikan nanti untuk level yang berbeda)
+    playsLeft = 4;
+    discardsLeft = 3;
+    currentScore = 0;
+    blindTarget = 300;
+
+    // Siapkan deck di awal game
+    deck.initialize();
+    deck.shuffle();
+}
+
+void GameManager::displayUI() {
+    std::cout << "\n=========================================================\n";
+    std::cout << " [ BLIND TARGET: " << blindTarget << " ] | [ CHIPS: " << currentScore << " ] \n";
+    std::cout << "=========================================================\n";
+    std::cout << " TANGAN KAMU (Sisa Plays: " << playsLeft << " | Sisa Discards: " << discardsLeft << "):\n";
+
+    // Menampilkan isi HandState
+    for (size_t i = 0; i < currentHand.cards.size(); ++i) {
+        // Asumsi struct Card milikmu punya variabel rank dan suit
+        std::cout << " " << (i + 1) << ". [" << currentHand.cards[i].rank << " of " << currentHand.cards[i].suit << "]\n";
+    }
+
+    std::cout << "=========================================================\n";
+    std::cout << " COMMAND GUIDE:\n";
+    std::cout << " - P <nomor> = PLAY kartu    (Contoh: P 1 3 4)\n";
+    std::cout << " - D <nomor> = DISCARD kartu (Contoh: D 2 5)\n";
+    std::cout << "---------------------------------------------------------\n";
+}
 
 void GameManager::runSession() {
-    std::cout << "========== MEMULAI RONDE BARU ==========\n";
+    // 1. Tarik 8 kartu di awal sesi sebelum game loop dimulai
+    drawService.drawCardsToHand(deck, currentHand, 8);
 
-    // [INJEKSI SISTEM RANDOM JOKER]
-    // Kita gunakan waktu saat ini (time(0)) agar hasil acaknya selalu berubah setiap kali di-compile/run
-    std::srand(static_cast<unsigned int>(std::time(0)));
-    
-    // Anggaplah pemain mendapat 1 Joker gratis acak di ronde ini
-    int randomJokerID = std::rand() % 5; // Menghasilkan angka 0 sampai 4
+    bool isGameOver = false;
 
-    std::cout << "[SISTEM] Pemain mendapatkan 1 Joker Misterius secara acak!\n";
-    if (randomJokerID == 0) jokerManager.addJoker(std::make_unique<SlyJoker>());
-    else if (randomJokerID == 1) jokerManager.addJoker(std::make_unique<JollyJoker>());
-    else if (randomJokerID == 2) jokerManager.addJoker(std::make_unique<CavendishJoker>());
-    else if (randomJokerID == 3) jokerManager.addJoker(std::make_unique<ZanyJoker>());
-    else if (randomJokerID == 4) jokerManager.addJoker(std::make_unique<MysticJoker>());
+    // 2. Mulai Game Loop
+    while (!isGameOver) {
+        // Cek kondisi kalah/menang
+        if (currentScore >= blindTarget) {
+            std::cout << "\n[!] SELAMAT! KAMU MENGALAHKAN BLIND!\n";
+            break;
+        }
+        if (playsLeft <= 0) {
+            std::cout << "\n[!] GAME OVER! Sisa Plays habis dan skor tidak mencapai target.\n";
+            break;
+        }
 
-    // =========================================================
-    // Alur Sistem Lama yang sudah kita buat sebelumnya...
-    Hand dealtHand = handGenerator.generateHand();
-    ChosenHand playedHand = handPlayer.playHand(dealtHand);
-    int score = scoringRule.scoreHand(playedHand);
+        displayUI();
 
-    ScoreContext context;
-    context.chips = score;
-    context.mult = 1;
-    // PENTING: Untuk testing ZanyJoker, pastikan kamu mengoper HandRank dari ScoringRule ke sini.
-    // Jika fungsi scoreHand milikmu tidak mengembalikan HandRank, tidak apa-apa, 
-    // Zany Joker cukup akan dilewati (tidak aktif).
-    
-    // GameManager melempar context tadi ke rak Joker
-    jokerManager.notifyScoreCalculatedWithLog(context);
+        // 3. Minta input dari pemain (P/D/J)
+        PlayerAction action = handPlayer.promptPlayer(currentHand);
 
-    int finalScore = context.getFinalScore();
-    
-    bool win = blindRule.checkBlind(finalScore);
-    int reward = rewardRule.earnMoney(win, finalScore);
+        // =======================================================
+        // CABANG PLAY
+        // =======================================================
+        if (action.type == ActionType::PLAY) {
+            if (action.selectedIndices.empty()) {
+                std::cout << "[!] Pilih minimal 1 kartu untuk dimainkan!\n";
+                continue;
+            }
 
-    std::cout << "========== RONDE SELESAI ==========\n\n";
+            std::cout << "\n--- MEMULAI FASE PLAY ---\n";
+            // Pindahkan kartu dari HandState ke ChosenHand (Nampan Eksekusi)
+            ChosenHand playedHand = handPlayer.createChosenHand(currentHand, action.selectedIndices);
+
+            // Hitung skor dasar dari kombinasi kartu (Chain of Responsibility)
+            int baseScore = scoringRule.scoreHand(playedHand);
+
+            // Masukkan ke konteks untuk di-buff oleh Joker
+            ScoreContext context;
+            context.chips = baseScore;
+            context.mult = 1;
+            // Catatan: Pastikan applyJokers milikmu menerima struct ScoreContext 
+            jokerManager.applyJokers(context);
+
+            // Kalkulasi Final
+            int totalScore = context.chips * context.mult;
+            std::cout << "=> TOTAL SKOR DIDAPAT: " << totalScore << "\n";
+            currentScore += totalScore;
+
+            // Buang kartu yang sudah terpakai dari tangan pemain
+            discardService.discardCards(currentHand, action.selectedIndices);
+
+            // Kurangi jatah main & Tarik ulang kartu sampai penuh 8 lagi
+            playsLeft--;
+            drawService.drawCardsToHand(deck, currentHand, 8 - currentHand.cards.size());
+        }
+        // =======================================================
+        // CABANG DISCARD
+        // =======================================================
+        else if (action.type == ActionType::DISCARD) {
+            if (discardsLeft <= 0) {
+                std::cout << "[!] Jatah DISCARD mu sudah habis!\n";
+                continue;
+            }
+            if (action.selectedIndices.empty()) {
+                std::cout << "[!] Pilih minimal 1 kartu untuk dibuang!\n";
+                continue;
+            }
+
+            std::cout << "\n--- MEMULAI FASE DISCARD ---\n";
+            // Buang kartu yang tidak disukai
+            discardService.discardCards(currentHand, action.selectedIndices);
+
+            // Kurangi jatah discard & Tarik ulang kartu penggantinya
+            discardsLeft--;
+            drawService.drawCardsToHand(deck, currentHand, 8 - currentHand.cards.size());
+        }
+        // =======================================================
+        // INPUT INVALID ATAU JOKER
+        // =======================================================
+        else if (action.type == ActionType::JOKER_INFO) {
+            std::cout << "\n[Info] Fitur lihat Joker belum diimplementasikan.\n";
+        }
+        else {
+            std::cout << "\n[!] Perintah tidak valid. Gunakan huruf P atau D.\n";
+        }
+    }
 }

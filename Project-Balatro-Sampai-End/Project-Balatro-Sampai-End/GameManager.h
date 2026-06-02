@@ -1,30 +1,35 @@
 #pragma once
-#include "CoreComponents.h" // Berisi BlindRule & RewardRule
-#include "ScoringRule.h"    // Berisi Chain of Responsibility (13 Checker)
-#include "HandGenerator.h"  // Berisi Randomizer (Pembuat 8 kartu acak)
-#include "HandPlayer.h"     // Berisi pengambil 5 kartu otomatis (ChosenHand)
-
-// === [INJEKSI SISTEM JOKER BARU] ===
+// Hapus #include "HandGenerator.h" jika masih ada
+#include "Deck.h"
+#include "HandState.h"
+#include "HandPlayer.h"
+#include "DrawService.h"
+#include "DiscardService.h"
+#include "ScoringRule.h"
 #include "JokerManager.h"
 #include "ScoreContext.h"
-// ===================================
 
 class GameManager {
 private:
-    // [SISTEM LAMA - 100% DIPERTAHANKAN]
-    // Instansiasi semua komponen yang akan bekerja di dalam game loop
-    HandGenerator handGenerator;
+    // --- KOMPONEN SISTEM BARU ---
+    Deck deck;
+    HandState currentHand;
     HandPlayer handPlayer;
+    DrawService drawService;
+    DiscardService discardService;
     ScoringRule scoringRule;
-    BlindRule blindRule;
-    RewardRule rewardRule;
-
-    // === [INJEKSI SISTEM JOKER BARU] ===
-    // Menambahkan manajer untuk menampung dan mengeksekusi Joker
     JokerManager jokerManager;
-    // ===================================
+
+    // --- VARIABEL STATUS GAME ---
+    int playsLeft;
+    int discardsLeft;
+    int currentScore;
+    int blindTarget;
+
+    // Fungsi untuk menampilkan UI ke layar
+    void displayUI();
 
 public:
-    // Fungsi utama untuk menjalankan satu putaran game
+    GameManager();
     void runSession();
 };

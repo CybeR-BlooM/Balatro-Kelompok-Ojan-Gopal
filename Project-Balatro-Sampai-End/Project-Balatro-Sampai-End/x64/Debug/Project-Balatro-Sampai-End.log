@@ -1,4 +1,9 @@
-﻿  DiscardService.cpp
-  DrawService.cpp
+﻿  GameManager.cpp
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\GameManager.cpp(79,26): error C2039: 'applyJokers': is not a member of 'JokerManager'
+      F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\JokerManager.h(7,7):
+      see declaration of 'JokerManager'
+  
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\GameManager.cpp(91,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\Project-Balatro-Sampai-End\GameManager.cpp(112,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
   Generating Code...
-  Project-Balatro-Sampai-End.vcxproj -> F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\x64\Debug\Project-Balatro-Sampai-End.exe
