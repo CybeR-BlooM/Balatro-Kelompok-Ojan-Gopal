@@ -78,6 +78,9 @@
     <ClCompile Include="ChosenHand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="JokerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameTypes.h">
@@ -147,6 +150,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HandPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JokerObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Joker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JokerManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

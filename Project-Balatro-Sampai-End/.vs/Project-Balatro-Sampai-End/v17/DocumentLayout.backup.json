@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\JokerManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\JokerManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Joker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\Joker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerObserver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\JokerObserver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoreContext.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\ScoreContext.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\GameTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\StraightFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\HandPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\PokerHandChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,12 +59,24 @@
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\ChosenHand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FullHouseChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\FullHouseChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\HandPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\TwoPairChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\ChosenHand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -47,14 +99,6 @@
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\HandGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoringRule.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\ScoringRule.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -73,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PairChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\PairChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\TwoPairChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -115,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\FullHouseChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FullHouseChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\FullHouseChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FourOfAKindChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\FourOfAKindChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -127,16 +163,8 @@
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\FourOfAKindChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\StraightFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\StraightFlushChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -167,16 +195,8 @@
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\FlushFiveChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\PokerHandChecker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\PokerHandChecker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{750B38F6-C83C-4F26-977C-C73F13F265C5}|Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End.vcxproj|solutionrelative:Project-Balatro-Sampai-End\\GameTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,76 +206,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChosenHand.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ChosenHand.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\ChosenHand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "JokerManager.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerManager.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\JokerManager.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerManager.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\JokerManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T04:46:40.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HandPlayer.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandPlayer.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandPlayer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T04:30:08.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChosenHand.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ChosenHand.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\ChosenHand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-04T04:18:30.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameManager.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\GameManager.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T16:11:27.606Z",
+              "WhenOpened": "2026-05-26T03:31:51.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\GameManager.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\GameManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T16:12:13.7Z",
+              "Title": "JokerManager.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerManager.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\JokerManager.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerManager.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\JokerManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-26T03:30:08.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Joker.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Joker.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\Joker.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Joker.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\Joker.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-26T03:20:46.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JokerObserver.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerObserver.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\JokerObserver.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\JokerObserver.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\JokerObserver.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-26T02:58:14.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreContext.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoreContext.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ScoreContext.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoreContext.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\ScoreContext.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-19T02:59:25.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "main.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\main.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\main.cpp",
@@ -263,92 +283,19 @@
               "RelativeToolTip": "Project-Balatro-Sampai-End\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-05T14:50:35.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T14:50:35.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HandGenerator.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandGenerator.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandGenerator.cpp",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-04T03:26:22.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CoreComponents.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\CoreComponents.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\CoreComponents.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ChosenHand.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ChosenHand.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\ChosenHand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T15:41:08.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HandPlayer.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandPlayer.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandPlayer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-04T04:29:30.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ScoringRule.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoringRule.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ScoringRule.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoringRule.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\ScoringRule.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T16:06:09.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CoreComponents.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\CoreComponents.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\CoreComponents.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T15:41:42.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PairChecker.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PairChecker.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\PairChecker.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PairChecker.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\PairChecker.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T16:49:08.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HighCardChecker.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HighCardChecker.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\HighCardChecker.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T16:49:48.61Z"
+              "WhenOpened": "2026-05-04T04:18:30.794Z"
             },
             {
               "$type": "Document",
@@ -364,31 +311,84 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HandPlayer.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandPlayer.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandPlayer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-04T04:30:08.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameTypes.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameTypes.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\GameTypes.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameTypes.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\GameTypes.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-06T11:27:41.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StraightFlushChecker.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T16:44:09.498Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "HandGenerator.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandGenerator.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandGenerator.h",
+              "Title": "PokerHandChecker.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T15:39:58.252Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoyalFlushChecker.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T16:43:23.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FullHouseChecker.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FullHouseChecker.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FullHouseChecker.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FullHouseChecker.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\FullHouseChecker.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-04T03:25:21.596Z"
+              "WhenOpened": "2026-04-06T16:45:18.549Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "HighCardChecker.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HighCardChecker.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\HighCardChecker.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T16:50:06.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Card.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\Card.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\Card.h",
@@ -401,6 +401,162 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\GameManager.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\GameManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-06T16:11:27.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TwoPairChecker.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T16:48:14.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\GameManager.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameManager.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\GameManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T16:12:13.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChosenHand.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\ChosenHand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-04T04:46:40.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HandGenerator.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandGenerator.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandGenerator.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-04T03:26:22.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CoreComponents.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\CoreComponents.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\CoreComponents.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-06T15:41:08.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HandPlayer.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandPlayer.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandPlayer.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandPlayer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-04T04:29:30.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ScoringRule.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoringRule.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ScoringRule.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoringRule.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\ScoringRule.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-06T16:06:09.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CoreComponents.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\CoreComponents.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\CoreComponents.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\CoreComponents.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T15:41:42.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PairChecker.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PairChecker.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\PairChecker.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PairChecker.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\PairChecker.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T16:49:08.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HighCardChecker.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HighCardChecker.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\HighCardChecker.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-06T16:49:48.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HandGenerator.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HandGenerator.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HandGenerator.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\HandGenerator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-04T03:25:21.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HighCardChecker.cpp",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.cpp",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\HighCardChecker.cpp",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\HighCardChecker.cpp",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\HighCardChecker.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T16:50:06.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "ScoringRule.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ScoringRule.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ScoringRule.cpp",
@@ -412,19 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TwoPairChecker.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\TwoPairChecker.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T16:48:14.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "PairChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PairChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\PairChecker.h",
@@ -436,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "TwoPairChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\TwoPairChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\TwoPairChecker.h",
@@ -448,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "ThreeOfAKindChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ThreeOfAKindChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ThreeOfAKindChecker.cpp",
@@ -460,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "ThreeOfAKindChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\ThreeOfAKindChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\ThreeOfAKindChecker.h",
@@ -472,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "StraightChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\StraightChecker.cpp",
@@ -484,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "StraightChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\StraightChecker.h",
@@ -496,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "FlushChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FlushChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FlushChecker.cpp",
@@ -508,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "FlushChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FlushChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FlushChecker.h",
@@ -520,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "FullHouseChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FullHouseChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FullHouseChecker.cpp",
@@ -532,19 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FullHouseChecker.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FullHouseChecker.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FullHouseChecker.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FullHouseChecker.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\FullHouseChecker.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T16:45:18.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "FourOfAKindChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FourOfAKindChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FourOfAKindChecker.cpp",
@@ -556,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "FourOfAKindChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FourOfAKindChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FourOfAKindChecker.h",
@@ -568,19 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "StraightFlushChecker.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\StraightFlushChecker.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T16:44:09.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "StraightFlushChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\StraightFlushChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\StraightFlushChecker.h",
@@ -592,19 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "RoyalFlushChecker.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\RoyalFlushChecker.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T16:43:23.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "RoyalFlushChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\RoyalFlushChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\RoyalFlushChecker.h",
@@ -616,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "FiveOfAKindChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FiveOfAKindChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FiveOfAKindChecker.cpp",
@@ -628,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "FiveOfAKindChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FiveOfAKindChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FiveOfAKindChecker.h",
@@ -640,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "FlushHouseChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FlushHouseChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FlushHouseChecker.cpp",
@@ -652,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "FlushHouseChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FlushHouseChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FlushHouseChecker.h",
@@ -664,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "FlushFiveChecker.cpp",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FlushFiveChecker.cpp",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FlushFiveChecker.cpp",
@@ -676,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "FlushFiveChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\FlushFiveChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\FlushFiveChecker.h",
@@ -688,19 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "PokerHandChecker.cpp",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\PokerHandChecker.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T15:39:58.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "PokerHandChecker.h",
               "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\PokerHandChecker.h",
               "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\PokerHandChecker.h",
@@ -709,22 +805,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-06T15:39:04.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "GameTypes.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameTypes.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\GameTypes.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\GameTypes.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\GameTypes.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T11:27:41.043Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

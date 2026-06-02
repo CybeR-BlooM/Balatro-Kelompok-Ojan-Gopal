@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -135,6 +136,7 @@
     <ClCompile Include="HandGenerator.cpp" />
     <ClCompile Include="HandPlayer.cpp" />
     <ClCompile Include="HighCardChecker.cpp" />
+    <ClCompile Include="JokerManager.cpp" />
     <ClCompile Include="PairChecker.cpp" />
     <ClCompile Include="PokerHandChecker.cpp" />
     <ClCompile Include="main.cpp" />
@@ -161,9 +163,13 @@
     <ClInclude Include="HandGenerator.h" />
     <ClInclude Include="HandPlayer.h" />
     <ClInclude Include="HighCardChecker.h" />
+    <ClInclude Include="Joker.h" />
+    <ClInclude Include="JokerManager.h" />
+    <ClInclude Include="JokerObserver.h" />
     <ClInclude Include="PairChecker.h" />
     <ClInclude Include="PokerHandChecker.h" />
     <ClInclude Include="RoyalFlushChecker.h" />
+    <ClInclude Include="ScoreContext.h" />
     <ClInclude Include="ScoringRule.h" />
     <ClInclude Include="StraightChecker.h" />
     <ClInclude Include="StraightFlushChecker.h" />

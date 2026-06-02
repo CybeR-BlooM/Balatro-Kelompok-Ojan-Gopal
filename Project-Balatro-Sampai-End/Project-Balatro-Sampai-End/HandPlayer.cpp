@@ -8,7 +8,7 @@ ChosenHand HandPlayer::playHand(const Hand& dealtHand) {
 
     // Strategi Dummy: Kita ambil otomatis 5 kartu pertama saja dari tangan.
     // Nanti kalau ada waktu, bagian ini bisa diganti dengan input keyboard (std::cin).
-    
+
     // Kita langsung gunakan tipe data size_t agar aman dari warning
     size_t cardsToPick = 5;
 

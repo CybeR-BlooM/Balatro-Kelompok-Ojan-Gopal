@@ -19,13 +19,38 @@ void GameManager::runSession() {
     // Di dalam ScoringRule, kartu ini akan masuk ke Chain of Responsibility (13 Checker).
     int score = scoringRule.scoreHand(playedHand);
 
+    // ====================================================================
+    // [SISTEM BARU - INJEKSI JOKER MULAI DI SINI]
+    // ====================================================================
+
+    // 3A. Pembuatan Wadah (ScoreContext)
+    ScoreContext context;
+
+    // 3B. Menjembatani Sistem Lama ke Sistem Baru
+    // Karena ScoringRule lama milikmu mengembalikan 'int score', kita jadikan score 
+    // tersebut sebagai base Chips. Mult kita set 1, agar (score * 1) = nilai aslinya.
+    context.chips = score;
+    context.mult = 1;
+    context.handType = HandRank::None; // Nilai default, bisa di-update nanti jika ScoringRule dimodifikasi
+
+    // 3C. Eksekusi Stasiun Radio Joker (Decorator Bekerja)
+    // GameManager melempar context tadi ke rak Joker untuk dikali-kalikan.
+    jokerManager.notifyScoreCalculatedWithLog(context);
+
+    // 3D. Ambil Hasil Akhir
+    int finalScore = context.getFinalScore();
+
+    // ====================================================================
+    // [SISTEM BARU - INJEKSI JOKER SELESAI]
+    // ====================================================================
+
     // Langkah 4: Cek Win/Lose melawan Blind (Target Skor)
-    // GameManager mengecek apakah skor dari kartu tadi memenuhi target menang
-    bool win = blindRule.checkBlind(score);
+    // [MODIFIKASI KECIL]: Kita ganti 'score' lama dengan 'finalScore' hasil olahan Joker
+    bool win = blindRule.checkBlind(finalScore);
 
     // Langkah 5: Kalkulasi Hadiah (Reward)
-    // Jika menang (true), beri uang. Jika kalah (false), dapat 0.
-    int reward = rewardRule.earnMoney(win, score);
+    // [MODIFIKASI KECIL]: Sama seperti di atas, kita gunakan 'finalScore'
+    int reward = rewardRule.earnMoney(win, finalScore);
 
     std::cout << "========== RONDE SELESAI ==========\n\n";
 }

@@ -21,7 +21,7 @@ HandRank StraightFlushChecker::check(const Hand& hand) {
         if (isFlush) {
             std::vector<int> ranks;
             for (const Card& c : hand.cards) ranks.push_back(c.rank);
-            
+
             std::sort(ranks.begin(), ranks.end());
 
             bool isStraight = true;
