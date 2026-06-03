@@ -185,5 +185,11 @@
     <ClInclude Include="DiscardService.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BlindState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlindContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

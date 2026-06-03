@@ -151,6 +151,8 @@
     <ClCompile Include="TwoPairChecker.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BlindContext.h" />
+    <ClInclude Include="BlindState.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="ChosenHand.h" />
     <ClInclude Include="CoreComponents.h" />
