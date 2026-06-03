@@ -2,7 +2,7 @@
 #include <iostream>
 
 GameManager::GameManager() {
-    // Inisialisasi status awal (Bisa disesuaikan nanti untuk level yang berbeda)
+    // Inisialisasi status awal
     playsLeft = 4;
     discardsLeft = 3;
     currentScore = 0;
@@ -21,7 +21,6 @@ void GameManager::displayUI() {
 
     // Menampilkan isi HandState
     for (size_t i = 0; i < currentHand.cards.size(); ++i) {
-        // Asumsi struct Card milikmu punya variabel rank dan suit
         std::cout << " " << (i + 1) << ". [" << currentHand.cards[i].rank << " of " << currentHand.cards[i].suit << "]\n";
     }
 
@@ -65,6 +64,7 @@ void GameManager::runSession() {
             }
 
             std::cout << "\n--- MEMULAI FASE PLAY ---\n";
+
             // Pindahkan kartu dari HandState ke ChosenHand (Nampan Eksekusi)
             ChosenHand playedHand = handPlayer.createChosenHand(currentHand, action.selectedIndices);
 
@@ -75,8 +75,10 @@ void GameManager::runSession() {
             ScoreContext context;
             context.chips = baseScore;
             context.mult = 1;
-            // Catatan: Pastikan applyJokers milikmu menerima struct ScoreContext 
-            jokerManager.applyJokers(context);
+
+            // --- [PERBAIKAN JOKER] ---
+            // Memanggil fungsi Observer milik JokerManager beserta log-nya
+            jokerManager.notifyScoreCalculatedWithLog(context);
 
             // Kalkulasi Final
             int totalScore = context.chips * context.mult;
@@ -88,7 +90,13 @@ void GameManager::runSession() {
 
             // Kurangi jatah main & Tarik ulang kartu sampai penuh 8 lagi
             playsLeft--;
-            drawService.drawCardsToHand(deck, currentHand, 8 - currentHand.cards.size());
+
+            // --- [PERBAIKAN WARNING KUNING] ---
+            // Menggunakan static_cast<int> agar C++ tidak komplain soal tipe data size_t
+            int cardsNeeded = static_cast<int>(8 - currentHand.cards.size());
+            if (cardsNeeded > 0) {
+                drawService.drawCardsToHand(deck, currentHand, cardsNeeded);
+            }
         }
         // =======================================================
         // CABANG DISCARD
@@ -109,7 +117,12 @@ void GameManager::runSession() {
 
             // Kurangi jatah discard & Tarik ulang kartu penggantinya
             discardsLeft--;
-            drawService.drawCardsToHand(deck, currentHand, 8 - currentHand.cards.size());
+
+            // --- [PERBAIKAN WARNING KUNING] ---
+            int cardsNeeded = static_cast<int>(8 - currentHand.cards.size());
+            if (cardsNeeded > 0) {
+                drawService.drawCardsToHand(deck, currentHand, cardsNeeded);
+            }
         }
         // =======================================================
         // INPUT INVALID ATAU JOKER
