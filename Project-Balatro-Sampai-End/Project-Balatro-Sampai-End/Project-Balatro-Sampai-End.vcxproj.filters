@@ -188,7 +188,13 @@
     <ClInclude Include="BlindState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BlindContext.h">
+    <ClInclude Include="RunSessionState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RewardCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreateBlinds.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

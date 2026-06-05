@@ -151,10 +151,10 @@
     <ClCompile Include="TwoPairChecker.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BlindContext.h" />
     <ClInclude Include="BlindState.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="ChosenHand.h" />
+    <ClInclude Include="ConcreateBlinds.h" />
     <ClInclude Include="CoreComponents.h" />
     <ClInclude Include="Deck.h" />
     <ClInclude Include="DiscardService.h" />
@@ -177,7 +177,9 @@
     <ClInclude Include="JokerObserver.h" />
     <ClInclude Include="PairChecker.h" />
     <ClInclude Include="PokerHandChecker.h" />
+    <ClInclude Include="RewardCommand.h" />
     <ClInclude Include="RoyalFlushChecker.h" />
+    <ClInclude Include="RunSessionState.h" />
     <ClInclude Include="ScoreContext.h" />
     <ClInclude Include="ScoringRule.h" />
     <ClInclude Include="StraightChecker.h" />
