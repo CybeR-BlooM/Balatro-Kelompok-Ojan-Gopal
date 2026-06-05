@@ -118,8 +118,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 342,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlindState.h",
+              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\BlindState.h",
+              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\BlindState.h",
+              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\BlindState.h",
+              "RelativeToolTip": "Project-Balatro-Sampai-End\\BlindState.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-03T04:13:31.959Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -138,8 +151,7 @@
               "RelativeToolTip": "Project-Balatro-Sampai-End\\ConcreateBlinds.h",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-05T13:45:19.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T13:45:19.096Z"
             },
             {
               "$type": "Document",
@@ -151,8 +163,7 @@
               "RelativeToolTip": "Project-Balatro-Sampai-End\\RewardCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-05T13:44:15.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T13:44:15.305Z"
             },
             {
               "$type": "Document",
@@ -164,21 +175,7 @@
               "RelativeToolTip": "Project-Balatro-Sampai-End\\Card.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-04T02:26:12.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlindState.h",
-              "DocumentMoniker": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\BlindState.h",
-              "RelativeDocumentMoniker": "Project-Balatro-Sampai-End\\BlindState.h",
-              "ToolTip": "F:\\FAUZAN\\PENS\\Design Pattern\\Github\\Balatro-Kelompok-Ojan-Gopal\\Project-Balatro-Sampai-End\\Project-Balatro-Sampai-End\\BlindState.h",
-              "RelativeToolTip": "Project-Balatro-Sampai-End\\BlindState.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-03T04:13:31.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T02:26:12.905Z"
             },
             {
               "$type": "Bookmark",
@@ -194,8 +191,7 @@
               "RelativeToolTip": "Project-Balatro-Sampai-End\\RunSessionState.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-05T13:43:33.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T13:43:33.75Z"
             },
             {
               "$type": "Document",
