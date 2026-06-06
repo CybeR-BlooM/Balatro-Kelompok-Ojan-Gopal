@@ -2,22 +2,56 @@
 #include <iostream>
 
 GameManager::GameManager() {
-    // Inisialisasi status awal
-    playsLeft = 4;
-    discardsLeft = 3;
-    currentScore = 0;
-    blindTarget = 300;
+    // Inisialisasi awal sesuai spesifikasi RunSessionState di TDD
+    sessionState.ante = 1;
+    sessionState.totalScore = 0;
+    sessionState.remainingPlays = 4;
+    sessionState.remainingDiscards = 3;
+    sessionState.freeRerolls = 0;
+
+    // Set awal permainan dimulai dari Small Blind State
+    sessionState.currentBlind = std::make_unique<SmallBlindState>();
 
     // Siapkan deck di awal game
     deck.initialize();
     deck.shuffle();
 }
 
+void GameManager::executePendingCommands(CommandTiming timing) {
+    // Melakukan looping ke semua command yang disimpan di vector state
+    for (auto& pending : sessionState.pendingCommands) {
+        if (!pending.executed && pending.timing == timing) {
+            if (pending.command) {
+                std::cout << "[REWARD] Mengaktifkan efek: " << pending.command->getName()
+                    << " (" << pending.command->getDescription() << ")\n";
+                pending.command->execute(sessionState);
+            }
+            pending.executed = true; // Tandai agar tidak dieksekusi dua kali
+        }
+    }
+}
+
+void GameManager::startNewBlind() {
+    // Cek apakah ada reward tertunda yang tipenya "NextBlind" untuk dieksekusi sekarang
+    executePendingCommands(CommandTiming::NextBlind);
+
+    // Tarik kartu sampai tangan penuh (8 kartu)
+    int cardsNeeded = static_cast<int>(8 - currentHand.cards.size());
+    if (cardsNeeded > 0) {
+        drawService.drawCardsToHand(deck, currentHand, cardsNeeded);
+    }
+}
+
 void GameManager::displayUI() {
+    int targetScore = sessionState.currentBlind->getTargetScore(sessionState.ante);
+
     std::cout << "\n=========================================================\n";
-    std::cout << " [ BLIND TARGET: " << blindTarget << " ] | [ CHIPS: " << currentScore << " ] \n";
+    std::cout << " ANTE: " << sessionState.ante << " | " << sessionState.currentBlind->getName() << "\n";
+    std::cout << " [ TARGET SKOR: " << targetScore << " ] | [ SKOR KAMU: " << sessionState.totalScore << " ] \n";
+    std::cout << " [ JATAH REROLL TOKO GRATIS: " << sessionState.freeRerolls << " ]\n";
     std::cout << "=========================================================\n";
-    std::cout << " TANGAN KAMU (Sisa Plays: " << playsLeft << " | Sisa Discards: " << discardsLeft << "):\n";
+    std::cout << " TANGAN KAMU (Sisa Plays: " << sessionState.remainingPlays
+        << " | Sisa Discards: " << sessionState.remainingDiscards << "):\n";
 
     // Menampilkan isi HandState
     for (size_t i = 0; i < currentHand.cards.size(); ++i) {
@@ -28,30 +62,45 @@ void GameManager::displayUI() {
     std::cout << " COMMAND GUIDE:\n";
     std::cout << " - P <nomor> = PLAY kartu    (Contoh: P 1 3 4)\n";
     std::cout << " - D <nomor> = DISCARD kartu (Contoh: D 2 5)\n";
+    std::cout << " - S         = SKIP Blind & Ambil Tag Reward\n";
     std::cout << "---------------------------------------------------------\n";
 }
 
 void GameManager::runSession() {
-    // 1. Tarik 8 kartu di awal sesi sebelum game loop dimulai
-    drawService.drawCardsToHand(deck, currentHand, 8);
+    std::cout << "=== MEMULAI SESI BALATRO (STATE & COMMAND PATTERN UNIFIED) ===\n";
+    startNewBlind();
 
-    bool isGameOver = false;
+    while (true) {
+        int targetScore = sessionState.currentBlind->getTargetScore(sessionState.ante);
 
-    // 2. Mulai Game Loop
-    while (!isGameOver) {
-        // Cek kondisi kalah/menang
-        if (currentScore >= blindTarget) {
-            std::cout << "\n[!] SELAMAT! KAMU MENGALAHKAN BLIND!\n";
-            break;
+        // Cek kondisi menang Blind normal
+        if (sessionState.totalScore >= targetScore) {
+            std::cout << "\n[!] BERHASIL! Kamu melewati " << sessionState.currentBlind->getName() << "!\n";
+            std::cout << "[!] Mendapatkan Uang Hadiah: $" << sessionState.currentBlind->getRewardMoney() << "\n";
+
+            // Simulasi Masuk Toko (Shop Timing)
+            std::cout << "\n--- MEMASUKKI FASE TOKO/SHOP ---\n";
+            executePendingCommands(CommandTiming::NextShop);
+
+            // Transisi ke State Blind Berikutnya melalui State Pattern
+            sessionState.currentBlind = sessionState.currentBlind->nextState(sessionState.ante);
+            sessionState.totalScore = 0; // Reset skor untuk blind berikutnya
+
+            // Kembalikan resources default setiap ganti blind
+            sessionState.remainingPlays = 4;
+            sessionState.remainingDiscards = 3;
+
+            startNewBlind();
+            continue;
         }
-        if (playsLeft <= 0) {
-            std::cout << "\n[!] GAME OVER! Sisa Plays habis dan skor tidak mencapai target.\n";
+
+        // Cek kondisi kalah
+        if (sessionState.remainingPlays <= 0) {
+            std::cout << "\n[!] GAME OVER! Jatah Plays habis dan skor tidak mencapai target.\n";
             break;
         }
 
         displayUI();
-
-        // 3. Minta input dari pemain (P/D/J)
         PlayerAction action = handPlayer.promptPlayer(currentHand);
 
         // =======================================================
@@ -76,22 +125,20 @@ void GameManager::runSession() {
             context.chips = baseScore;
             context.mult = 1;
 
-            // --- [PERBAIKAN JOKER] ---
             // Memanggil fungsi Observer milik JokerManager beserta log-nya
             jokerManager.notifyScoreCalculatedWithLog(context);
 
             // Kalkulasi Final
             int totalScore = context.chips * context.mult;
             std::cout << "=> TOTAL SKOR DIDAPAT: " << totalScore << "\n";
-            currentScore += totalScore;
+            sessionState.totalScore += totalScore;
 
             // Buang kartu yang sudah terpakai dari tangan pemain
             discardService.discardCards(currentHand, action.selectedIndices);
 
             // Kurangi jatah main & Tarik ulang kartu sampai penuh 8 lagi
-            playsLeft--;
+            sessionState.remainingPlays--;
 
-            // --- [PERBAIKAN WARNING KUNING] ---
             // Menggunakan static_cast<int> agar C++ tidak komplain soal tipe data size_t
             int cardsNeeded = static_cast<int>(8 - currentHand.cards.size());
             if (cardsNeeded > 0) {
@@ -102,7 +149,7 @@ void GameManager::runSession() {
         // CABANG DISCARD
         // =======================================================
         else if (action.type == ActionType::DISCARD) {
-            if (discardsLeft <= 0) {
+            if (sessionState.remainingDiscards <= 0) {
                 std::cout << "[!] Jatah DISCARD mu sudah habis!\n";
                 continue;
             }
@@ -116,13 +163,46 @@ void GameManager::runSession() {
             discardService.discardCards(currentHand, action.selectedIndices);
 
             // Kurangi jatah discard & Tarik ulang kartu penggantinya
-            discardsLeft--;
+            sessionState.remainingDiscards--;
 
-            // --- [PERBAIKAN WARNING KUNING] ---
             int cardsNeeded = static_cast<int>(8 - currentHand.cards.size());
             if (cardsNeeded > 0) {
                 drawService.drawCardsToHand(deck, currentHand, cardsNeeded);
             }
+        }
+        // =======================================================
+        // CABANG SKIP BLIND (COMMAND PATTERN ACTION)
+        // =======================================================
+        else if (action.type == ActionType::SKIP) {
+            if (sessionState.currentBlind->getName() == "Boss Blind") {
+                std::cout << "[!] Boss Blind tidak bisa di-skip!\n";
+                continue;
+            }
+
+            std::cout << "\n[SKIP] Kamu memilih melompati " << sessionState.currentBlind->getName() << "!\n";
+
+            // BlindState menciptakan RewardCommand khusus (Command Pattern)
+            PendingCommand skipReward = sessionState.currentBlind->createSkipRewardCommand();
+
+            // Jika reward valid, simpan ke penampungan deferred execution
+            if (skipReward.command != nullptr) {
+                std::cout << "[!] Reward Diperoleh: " << skipReward.command->getName()
+                    << " (Akan aktif pada fase yang tepat)\n";
+                sessionState.pendingCommands.push_back(std::move(skipReward));
+            }
+
+            // Langsung jalankan Immediate command jika ada
+            executePendingCommands(CommandTiming::Immediate);
+
+            // Transisi ke State Blind berikutnya tanpa bermain
+            sessionState.currentBlind = sessionState.currentBlind->nextState(sessionState.ante);
+            sessionState.totalScore = 0; // Reset skor untuk blind baru
+
+            // Kembalikan resources default setiap ganti blind
+            sessionState.remainingPlays = 4;
+            sessionState.remainingDiscards = 3;
+
+            startNewBlind();
         }
         // =======================================================
         // INPUT INVALID ATAU JOKER
@@ -131,7 +211,7 @@ void GameManager::runSession() {
             std::cout << "\n[Info] Fitur lihat Joker belum diimplementasikan.\n";
         }
         else {
-            std::cout << "\n[!] Perintah tidak valid. Gunakan huruf P atau D.\n";
+            std::cout << "\n[!] Perintah tidak valid. Gunakan huruf P, D, J, atau S.\n";
         }
     }
 }

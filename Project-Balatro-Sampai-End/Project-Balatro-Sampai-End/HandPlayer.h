@@ -15,7 +15,7 @@ enum class ActionType {
 
 // Struct paket data untuk dikirim ke GameManager
 struct PlayerAction {
-    ActionType type;
+    ActionType type = ActionType::INVALID;
     std::vector<int> selectedIndices; // Menyimpan index kartu yang dipilih
 };
 

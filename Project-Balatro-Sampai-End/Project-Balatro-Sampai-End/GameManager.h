@@ -1,5 +1,4 @@
 #pragma once
-// Hapus #include "HandGenerator.h" jika masih ada
 #include "Deck.h"
 #include "HandState.h"
 #include "HandPlayer.h"
@@ -8,10 +7,16 @@
 #include "ScoringRule.h"
 #include "JokerManager.h"
 #include "ScoreContext.h"
+#include "RunSessionState.h" // Sesuai TDD
+#include "ConcreteBlinds.h"  // Untuk inisialisasi awal SmallBlind
+#include "RewardCommand.h"
 
 class GameManager {
 private:
-    // --- KOMPONEN SISTEM BARU ---
+    // --- STATE UTAMA UTK SESI INI ---
+    RunSessionState sessionState;
+
+    // --- SERVICE / INFRASTRUKTUR ---
     Deck deck;
     HandState currentHand;
     HandPlayer handPlayer;
@@ -20,14 +25,10 @@ private:
     ScoringRule scoringRule;
     JokerManager jokerManager;
 
-    // --- VARIABEL STATUS GAME ---
-    int playsLeft;
-    int discardsLeft;
-    int currentScore;
-    int blindTarget;
-
-    // Fungsi untuk menampilkan UI ke layar
+    // --- FUNGSI INTERNAL UTK MANAGING COMMANDS & UI ---
     void displayUI();
+    void executePendingCommands(CommandTiming timing);
+    void startNewBlind();
 
 public:
     GameManager();
