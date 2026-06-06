@@ -13,6 +13,7 @@ struct RunSessionState {
     int remainingPlays = 4;
     int remainingDiscards = 3;
     int freeRerolls = 0;
+    int money = 0;
 
     std::unique_ptr<BlindState> currentBlind;
     std::vector<PendingCommand> pendingCommands;

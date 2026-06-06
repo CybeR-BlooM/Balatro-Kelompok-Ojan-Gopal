@@ -93,6 +93,9 @@
     <ClCompile Include="ConcreteBlinds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="JokerFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameTypes.h">
@@ -201,6 +204,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ConcreteCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JokerFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

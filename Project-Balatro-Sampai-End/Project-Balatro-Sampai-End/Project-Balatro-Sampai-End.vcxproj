@@ -140,6 +140,7 @@
     <ClCompile Include="HandGenerator.cpp" />
     <ClCompile Include="HandPlayer.cpp" />
     <ClCompile Include="HighCardChecker.cpp" />
+    <ClCompile Include="JokerFactory.cpp" />
     <ClCompile Include="JokerManager.cpp" />
     <ClCompile Include="PairChecker.cpp" />
     <ClCompile Include="PokerHandChecker.cpp" />
@@ -175,6 +176,7 @@
     <ClInclude Include="HandState.h" />
     <ClInclude Include="HighCardChecker.h" />
     <ClInclude Include="Joker.h" />
+    <ClInclude Include="JokerFactory.h" />
     <ClInclude Include="JokerManager.h" />
     <ClInclude Include="JokerObserver.h" />
     <ClInclude Include="PairChecker.h" />
