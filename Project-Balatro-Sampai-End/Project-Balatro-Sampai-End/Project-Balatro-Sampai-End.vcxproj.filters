@@ -90,6 +90,9 @@
     <ClCompile Include="DiscardService.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConcreteBlinds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameTypes.h">
@@ -194,7 +197,10 @@
     <ClInclude Include="RewardCommand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConcreateBlinds.h">
+    <ClInclude Include="ConcreteBlinds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteCommands.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -125,6 +125,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ChosenHand.cpp" />
+    <ClCompile Include="ConcreteBlinds.cpp" />
     <ClCompile Include="CoreComponents.cpp" />
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="DiscardService.cpp" />
@@ -154,7 +155,8 @@
     <ClInclude Include="BlindState.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="ChosenHand.h" />
-    <ClInclude Include="ConcreateBlinds.h" />
+    <ClInclude Include="ConcreteBlinds.h" />
+    <ClInclude Include="ConcreteCommands.h" />
     <ClInclude Include="CoreComponents.h" />
     <ClInclude Include="Deck.h" />
     <ClInclude Include="DiscardService.h" />

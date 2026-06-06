@@ -8,7 +8,9 @@ PlayerAction HandPlayer::promptPlayer(const HandState& hand) {
     action.type = ActionType::INVALID;
 
     std::string input;
-    std::cout << "\nMasukkan Aksi (P/D/J) diikuti nomor kartu > ";
+    // --- [PERBAIKAN] --- 
+    // Mengubah prompt teks untuk memberitahu pemain bisa menekan S
+    std::cout << "\nMasukkan Aksi (P/D/J/S) diikuti nomor kartu jika perlu > ";
 
     // getline digunakan agar bisa membaca teks berspasi
     std::getline(std::cin, input);
@@ -20,17 +22,20 @@ PlayerAction HandPlayer::promptPlayer(const HandState& hand) {
     std::stringstream ss(input);
     char commandChar;
 
-    // Ambil karakter pertama (P/D/J)
+    // Ambil karakter pertama (P/D/J/S)
     ss >> commandChar;
     commandChar = std::toupper(commandChar); // Paksa jadi huruf kapital
 
-    // Tentukan jenis aksi
+    // --- [PERBAIKAN] ---
+    // Tentukan jenis aksi (Menambahkan logika untuk S)
     if (commandChar == 'P') action.type = ActionType::PLAY;
     else if (commandChar == 'D') action.type = ActionType::DISCARD;
     else if (commandChar == 'J') action.type = ActionType::JOKER_INFO;
-    else return action; // Jika bukan P/D/J, status tetap INVALID
+    else if (commandChar == 'S') action.type = ActionType::SKIP;
+    else return action; // Jika bukan P/D/J/S, status tetap INVALID
 
     // Ambil sisa angkanya satu per satu (contoh: 1, 3, 5)
+    // (Jika pemain cuma mengetik "S", loop ini otomatis dilewati dengan aman)
     int num;
     while (ss >> num) {
         // Validasi keamanan: Pastikan pemain tidak mengetik angka ngawur (misal kartu ada 8, dia ketik 99)
