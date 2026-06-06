@@ -147,6 +147,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RoyalFlushChecker.cpp" />
     <ClCompile Include="ScoringRule.cpp" />
+    <ClCompile Include="ShopSystem.cpp" />
     <ClCompile Include="StraightChecker.cpp" />
     <ClCompile Include="StraightFlushChecker.cpp" />
     <ClCompile Include="ThreeOfAKindChecker.cpp" />
@@ -186,6 +187,7 @@
     <ClInclude Include="RunSessionState.h" />
     <ClInclude Include="ScoreContext.h" />
     <ClInclude Include="ScoringRule.h" />
+    <ClInclude Include="ShopSystem.h" />
     <ClInclude Include="StraightChecker.h" />
     <ClInclude Include="StraightFlushChecker.h" />
     <ClInclude Include="ThreeOfAKindChecker.h" />
