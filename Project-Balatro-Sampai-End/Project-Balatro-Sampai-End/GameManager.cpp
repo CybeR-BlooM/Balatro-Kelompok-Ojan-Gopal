@@ -8,6 +8,7 @@ GameManager::GameManager() {
     sessionState.remainingPlays = 4;
     sessionState.remainingDiscards = 3;
     sessionState.freeRerolls = 0;
+    sessionState.money = 0; // Uang awal pemain
 
     // Set awal permainan dimulai dari Small Blind State
     sessionState.currentBlind = std::make_unique<SmallBlindState>();
@@ -48,7 +49,7 @@ void GameManager::displayUI() {
     std::cout << "\n=========================================================\n";
     std::cout << " ANTE: " << sessionState.ante << " | " << sessionState.currentBlind->getName() << "\n";
     std::cout << " [ TARGET SKOR: " << targetScore << " ] | [ SKOR KAMU: " << sessionState.totalScore << " ] \n";
-    std::cout << " [ JATAH REROLL TOKO GRATIS: " << sessionState.freeRerolls << " ]\n";
+    std::cout << " [ DOMPET: $" << sessionState.money << " ] | [ REROLL GRATIS: " << sessionState.freeRerolls << " ]\n";
     std::cout << "=========================================================\n";
     std::cout << " TANGAN KAMU (Sisa Plays: " << sessionState.remainingPlays
         << " | Sisa Discards: " << sessionState.remainingDiscards << "):\n";
@@ -67,7 +68,7 @@ void GameManager::displayUI() {
 }
 
 void GameManager::runSession() {
-    std::cout << "=== MEMULAI SESI BALATRO (STATE & COMMAND PATTERN UNIFIED) ===\n";
+    std::cout << "=== MEMULAI SESI BALATRO (STATE, COMMAND & SHOP UNIFIED) ===\n";
     startNewBlind();
 
     while (true) {
@@ -76,11 +77,19 @@ void GameManager::runSession() {
         // Cek kondisi menang Blind normal
         if (sessionState.totalScore >= targetScore) {
             std::cout << "\n[!] BERHASIL! Kamu melewati " << sessionState.currentBlind->getName() << "!\n";
-            std::cout << "[!] Mendapatkan Uang Hadiah: $" << sessionState.currentBlind->getRewardMoney() << "\n";
 
-            // Simulasi Masuk Toko (Shop Timing)
-            std::cout << "\n--- MEMASUKKI FASE TOKO/SHOP ---\n";
+            // --- [LOGIKA UANG & SHOP] ---
+            int rewardMoney = sessionState.currentBlind->getRewardMoney();
+            sessionState.money += rewardMoney;
+            std::cout << "[!] Mendapatkan Uang Hadiah: $" << rewardMoney << "\n";
+            std::cout << "[!] Total Uang Sekarang: $" << sessionState.money << "\n";
+
+            std::cout << "\n--- MEMASUKI FASE TOKO/SHOP ---\n";
+            // Jalankan command tertunda yang aktif saat masuk Shop (misal: Free Reroll)
             executePendingCommands(CommandTiming::NextShop);
+
+            // Buka Shop UI
+            shopSystem.enterShop(sessionState, jokerManager);
 
             // Transisi ke State Blind Berikutnya melalui State Pattern
             sessionState.currentBlind = sessionState.currentBlind->nextState(sessionState.ante);

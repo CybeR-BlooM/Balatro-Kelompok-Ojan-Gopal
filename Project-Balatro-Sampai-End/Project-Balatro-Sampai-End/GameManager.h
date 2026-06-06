@@ -10,6 +10,7 @@
 #include "RunSessionState.h" // Sesuai TDD
 #include "ConcreteBlinds.h"  // Untuk inisialisasi awal SmallBlind
 #include "RewardCommand.h"
+#include "ShopSystem.h"      // <--- [TAMBAHAN BARU] Include ShopSystem
 
 class GameManager {
 private:
@@ -24,6 +25,7 @@ private:
     DiscardService discardService;
     ScoringRule scoringRule;
     JokerManager jokerManager;
+    ShopSystem shopSystem;   // <--- [TAMBAHAN BARU] Komponen Toko
 
     // --- FUNGSI INTERNAL UTK MANAGING COMMANDS & UI ---
     void displayUI();
