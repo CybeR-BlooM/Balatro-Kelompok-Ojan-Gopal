@@ -2,7 +2,7 @@
 #include <iostream>
 
 GameManager::GameManager() {
-    // Inisialisasi awal sesuai spesifikasi RunSessionState di TDD
+    // Inisialisasi awal sesuai spesifikasi RunSessionState
     sessionState.ante = 1;
     sessionState.totalScore = 0;
     sessionState.remainingPlays = 4;
@@ -103,9 +103,17 @@ void GameManager::runSession() {
             continue;
         }
 
-        // Cek kondisi kalah
-        if (sessionState.remainingPlays <= 0) {
-            std::cout << "\n[!] GAME OVER! Jatah Plays habis dan skor tidak mencapai target.\n";
+        // --- [PERBAIKAN KONDISI KALAH] ---
+        bool outOfPlays = (sessionState.remainingPlays <= 0);
+        bool completelyOutOfCards = (currentHand.cards.empty() && deck.isEmpty());
+
+        if (outOfPlays || completelyOutOfCards) {
+            std::cout << "\n=========================================================\n";
+            std::cout << "[!] GAME OVER!\n";
+            if (outOfPlays) std::cout << "=> Jatah Plays kamu sudah habis.\n";
+            if (completelyOutOfCards) std::cout << "=> Kamu kehabisan seluruh kartu (Deck dan Tangan kosong).\n";
+            std::cout << "=> Skor Akhir: " << sessionState.totalScore << " / Target: " << targetScore << "\n";
+            std::cout << "=========================================================\n";
             break;
         }
 
@@ -148,7 +156,6 @@ void GameManager::runSession() {
             // Kurangi jatah main & Tarik ulang kartu sampai penuh 8 lagi
             sessionState.remainingPlays--;
 
-            // Menggunakan static_cast<int> agar C++ tidak komplain soal tipe data size_t
             int cardsNeeded = static_cast<int>(8 - currentHand.cards.size());
             if (cardsNeeded > 0) {
                 drawService.drawCardsToHand(deck, currentHand, cardsNeeded);
@@ -220,7 +227,7 @@ void GameManager::runSession() {
             std::cout << "\n[Info] Fitur lihat Joker belum diimplementasikan.\n";
         }
         else {
-            std::cout << "\n[!] Perintah tidak valid. Gunakan huruf P, D, J, atau S.\n";
+            std::cout << "\n[!] Perintah tidak valid. Gunakan huruf P, D, J, atau S (Maksimal 5 angka).\n";
         }
     }
 }

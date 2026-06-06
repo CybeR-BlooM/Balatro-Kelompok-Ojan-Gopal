@@ -2,19 +2,22 @@
 #include <iostream>
 
 void DrawService::drawCardsToHand(Deck& deck, HandState& hand, int amount) {
-    std::cout << "\n[DrawService] Menarik " << amount << " kartu dari Deck...\n";
-
     int cardsDrawn = 0;
+
     for (int i = 0; i < amount; ++i) {
         if (!deck.isEmpty()) {
-            hand.addCard(deck.drawCard());
+            // Menarik kartu selama deck masih ada isinya
+            hand.cards.push_back(deck.drawCard());
             cardsDrawn++;
         }
         else {
-            std::cout << "[!] Peringatan: Deck habis!\n";
-            break; // Hentikan penarikan jika deck kosong
+            // Hentikan penarikan jika deck kosong
+            std::cout << "\n[!] Peringatan: Deck habis! Kamu harus berjuang dengan sisa kartu di tangan.\n";
+            break;
         }
     }
 
-    std::cout << "=> " << cardsDrawn << " kartu berhasil ditambahkan ke tangan pemain.\n";
+    if (cardsDrawn > 0) {
+        std::cout << "=> " << cardsDrawn << " kartu baru ditarik ke tangan.\n";
+    }
 }

@@ -8,8 +8,6 @@ PlayerAction HandPlayer::promptPlayer(const HandState& hand) {
     action.type = ActionType::INVALID;
 
     std::string input;
-    // --- [PERBAIKAN] --- 
-    // Mengubah prompt teks untuk memberitahu pemain bisa menekan S
     std::cout << "\nMasukkan Aksi (P/D/J/S) diikuti nomor kartu jika perlu > ";
 
     // getline digunakan agar bisa membaca teks berspasi
@@ -26,8 +24,7 @@ PlayerAction HandPlayer::promptPlayer(const HandState& hand) {
     ss >> commandChar;
     commandChar = std::toupper(commandChar); // Paksa jadi huruf kapital
 
-    // --- [PERBAIKAN] ---
-    // Tentukan jenis aksi (Menambahkan logika untuk S)
+    // Tentukan jenis aksi
     if (commandChar == 'P') action.type = ActionType::PLAY;
     else if (commandChar == 'D') action.type = ActionType::DISCARD;
     else if (commandChar == 'J') action.type = ActionType::JOKER_INFO;
@@ -35,14 +32,20 @@ PlayerAction HandPlayer::promptPlayer(const HandState& hand) {
     else return action; // Jika bukan P/D/J/S, status tetap INVALID
 
     // Ambil sisa angkanya satu per satu (contoh: 1, 3, 5)
-    // (Jika pemain cuma mengetik "S", loop ini otomatis dilewati dengan aman)
     int num;
     while (ss >> num) {
-        // Validasi keamanan: Pastikan pemain tidak mengetik angka ngawur (misal kartu ada 8, dia ketik 99)
+        // Validasi keamanan: Pastikan pemain tidak mengetik angka ngawur
         if (num >= 1 && num <= hand.cards.size()) {
-            // Masukkan ke vector, dikurangi 1 karena index array/vector C++ selalu mulai dari 0
+            // Masukkan ke vector, dikurangi 1 karena index array C++ mulai dari 0
             action.selectedIndices.push_back(num - 1);
         }
+    }
+
+    // --- [PERBAIKAN: BATASAN MAKSIMAL 5 KARTU] ---
+    if (action.selectedIndices.size() > 5) {
+        std::cout << "\n[!] TIDAK VALID: Maksimal hanya bisa memilih 5 kartu!\n";
+        action.type = ActionType::INVALID;
+        action.selectedIndices.clear(); // Bersihkan pilihan
     }
 
     return action;
