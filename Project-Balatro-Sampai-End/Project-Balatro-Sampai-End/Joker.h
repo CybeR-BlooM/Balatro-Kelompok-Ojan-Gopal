@@ -1,17 +1,22 @@
 #pragma once
-
-#include "JokerObserver.h"
+#include "ScoreContext.h"
 #include <string>
 
-class Joker : public JokerObserver {
+class Joker {
 public:
-    // Virtual destructor untuk keamanan memori
+    // Virtual destructor wajib ada untuk mencegah memory leak saat polymorphism
     virtual ~Joker() = default;
 
-    // Mewajibkan semua Joker memiliki Nama
+    // =========================================================
+    // FUNGSI KONTRAK WAJIB DARI TDD 
+    // =========================================================
+
+    // 1. Mendapatkan nama Joker
     virtual std::string getName() const = 0;
 
-    // Mewajibkan semua Joker memiliki Deskripsi Efek
-    // Menggunakan ScoreContext agar deskripsi bisa dinamis (menyesuaikan keadaan)
+    // 2. Mendapatkan deskripsi Joker (Menerima parameter ScoreContext sesuai TDD)
     virtual std::string getDescription(const ScoreContext& context) const = 0;
+
+    // 3. Fungsi utama untuk memodifikasi chips dan multiplier di dalam context
+    virtual void onScoreCalculated(ScoreContext& context) = 0;
 };
