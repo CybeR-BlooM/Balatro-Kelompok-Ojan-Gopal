@@ -1,23 +1,23 @@
 #pragma once
-#include "Joker.h" // Asumsi file Joker dasar milikmu
+#include "Joker.h"
 #include <memory>
 #include <string>
 
-// Daftar tipe Joker yang tersedia di Shop
+// Enum daftar 5 Joker yang tersedia di pabrik (Gabungan TDD Dosen & TDD Kelompok 11)
 enum class JokerType {
+    FlatChip,
+    Pair,
     Basic,
-    Spade,
-    Greedy
+    Greedy,
+    Spade
 };
 
 class JokerFactory {
 public:
-    // Factory Method: Membuat Joker berdasarkan tipenya secara dinamis
+    // Factory Method: Menciptakan objek Joker berdasarkan tipenya
     static std::unique_ptr<Joker> createJoker(JokerType type);
-
-    // Fungsi utilitas untuk mendapatkan harga Joker
+    
+    // Fungsi utilitas untuk Shop System
     static int getPrice(JokerType type);
-
-    // Fungsi utilitas untuk nama Joker di UI Shop
     static std::string getName(JokerType type);
 };
