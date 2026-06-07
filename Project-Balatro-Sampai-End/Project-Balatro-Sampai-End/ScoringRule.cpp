@@ -91,8 +91,3 @@ int ScoringRule::convertRankToScore(HandRank rank) {
     std::cout << "=> Evaluasi Selesai! Skor Dasar Kombinasi Kartu adalah: " << score << "\n";
     return score;
 }
-
-// --- [TAMBAHAN BARU: IMPLEMENTASI GETTER] ---
-HandRank ScoringRule::getLastEvaluatedHandRank() const {
-    return lastHandRank;
-}
