@@ -159,6 +159,7 @@
     <ClInclude Include="ChosenHand.h" />
     <ClInclude Include="ConcreteBlinds.h" />
     <ClInclude Include="ConcreteCommands.h" />
+    <ClInclude Include="ConcreteJokers.h" />
     <ClInclude Include="CoreComponents.h" />
     <ClInclude Include="Deck.h" />
     <ClInclude Include="DiscardService.h" />

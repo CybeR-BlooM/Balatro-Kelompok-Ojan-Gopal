@@ -215,5 +215,8 @@
     <ClInclude Include="ShopSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ConcreteJokers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
