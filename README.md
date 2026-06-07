@@ -40,27 +40,27 @@ Tujuan dari penyusunan sistem arsitektur ini adalah:
 
 Proyek ini dibagi menjadi beberapa sistem utama yang saling bekerja sama, di mana setiap sistem memiliki tanggung jawab tunggal (Single Responsibility):
 
-GameManager :	Mengontrol jalannya siklus permainan utama (Game Loop).
+- GameManager :	Mengontrol jalannya siklus permainan utama (Game Loop).
 
-Deck :	Membuat, mengacak, dan menyediakan 52 kartu standar.
+- Deck : Membuat, mengacak, dan menyediakan 52 kartu standar.
 
-Draw/Discard Service :	Mengelola transisi logistik kartu antara Deck dan tangan pemain.
+- Draw/Discard Service : Mengelola transisi logistik kartu antara Deck dan tangan pemain.
 
-HandState :	Menyimpan kartu yang sedang dipegang pemain saat ini (Maksimal 8).
+- HandState : Menyimpan kartu yang sedang dipegang pemain saat ini (Maksimal 8).
 
-ChosenHand :	Menyimpan kartu yang dipilih pemain untuk dievaluasi (Maksimal 5).
+- ChosenHand : Menyimpan kartu yang dipilih pemain untuk dievaluasi (Maksimal 5).
 
-HandPlayer :	Mengelola parser input terminal pemain (Play, Discard, Skip).
+- HandPlayer : Mengelola parser input terminal pemain (Play, Discard, Skip).
 
-Poker Hand Evaluator :	Menentukan tipe kombinasi tangan tertinggi.
+- Poker Hand Evaluator : Menentukan tipe kombinasi tangan tertinggi.
 
-ScoringRule :	Menghitung base chips dan base multiplier.
+- ScoringRule : Menghitung base chips dan base multiplier.
 
-JokerManager :	Menyiarkan data skor kepada seluruh Joker untuk dimodifikasi.
+- JokerManager : Menyiarkan data skor kepada seluruh Joker untuk dimodifikasi.
 
-ShopSystem : Menyediakan antarmuka pembelian Joker dengan mata uang permainan.
+- ShopSystem : Menyediakan antarmuka pembelian Joker dengan mata uang permainan.
 
-BlindSystem : Mengatur status target skor dan progresi tingkat kesulitan.
+- BlindSystem : Mengatur status target skor dan progresi tingkat kesulitan.
 
 📂 Project Structure
 
