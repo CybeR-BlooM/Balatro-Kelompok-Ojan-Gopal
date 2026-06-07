@@ -8,6 +8,9 @@ class ScoringRule {
 private:
     PokerHandChecker* chainRoot; // Menyimpan ujung pertama dari rantai
 
+    // --- [TAMBAHAN BARU: MEMORI EVALUASI] ---
+    HandRank lastHandRank = HandRank::None;
+
 public:
     ScoringRule();  // Constructor
     ~ScoringRule(); // Destructor
@@ -16,4 +19,9 @@ public:
     int scoreHand(const ChosenHand& hand);
 
     int convertRankToScore(HandRank rank);
+
+    // --- [TAMBAHAN BARU: FUNGSI GETTER] ---
+    HandRank getLastEvaluatedHandRank() const {
+        return lastHandRank;
+    }
 };

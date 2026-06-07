@@ -1,5 +1,5 @@
-﻿  DrawService.cpp
-  GameManager.cpp
-  HandPlayer.cpp
+﻿  GameManager.cpp
+  ScoringRule.cpp
+  main.cpp
   Generating Code...
   Project-Balatro-Sampai-End.vcxproj -> F:\FAUZAN\PENS\Design Pattern\Github\Balatro-Kelompok-Ojan-Gopal\Project-Balatro-Sampai-End\x64\Debug\Project-Balatro-Sampai-End.exe

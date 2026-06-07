@@ -142,6 +142,12 @@ void GameManager::runSession() {
             context.chips = baseScore;
             context.mult = 1;
 
+            // ---> [PENYESUAIAN JOKER PENTING] <---
+            // Menyuplai data fisik kartu ke context agar SpadeJoker bisa mengecek isi kartunya
+            context.cards = playedHand.cards;
+            // Menyuplai hasil evaluasi terakhir ke context agar PairJoker bisa menyala
+            context.handType = scoringRule.getLastEvaluatedHandRank();
+
             // Memanggil fungsi Observer milik JokerManager beserta log-nya
             jokerManager.notifyScoreCalculatedWithLog(context);
 

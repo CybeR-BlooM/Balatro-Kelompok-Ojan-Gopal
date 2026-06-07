@@ -52,22 +52,20 @@ ScoringRule::ScoringRule() {
 
 ScoringRule::~ScoringRule() {
     // Catatan: Di C++ yang baik, memori yang dibuat dengan 'new' harus di-delete.
-    // Tapi karena kita merangkai chain, delete bisa dibuat otomatis nanti.
-    // Untuk tahap awal ini biarkan kosong tidak apa-apa agar fokus ke jalan programnya dulu.
 }
 
-// === [PERUBAHAN ADA DI BARIS INI] ===
-// Parameter diubah dari (const Hand& hand) menjadi (const ChosenHand& hand)
 int ScoringRule::scoreHand(const ChosenHand& hand) {
     std::cout << "[Fase 3] ScoringRule mengirim kartu ke Chain of Responsibility...\n";
 
     // Ini akan memicu rantai berjalan dari FlushFive sampai ketemu hasilnya
     HandRank rank = chainRoot->check(hand);
 
+    // --- [TAMBAHAN BARU: SIMPAN KE MEMORI] ---
+    lastHandRank = rank;
+
     // Ubah hasil (misal: "Pair") jadi angka skor (misal: 100)
     return convertRankToScore(rank);
 }
-// ===================================
 
 int ScoringRule::convertRankToScore(HandRank rank) {
     int score = 0;
@@ -92,4 +90,9 @@ int ScoringRule::convertRankToScore(HandRank rank) {
 
     std::cout << "=> Evaluasi Selesai! Skor Dasar Kombinasi Kartu adalah: " << score << "\n";
     return score;
+}
+
+// --- [TAMBAHAN BARU: IMPLEMENTASI GETTER] ---
+HandRank ScoringRule::getLastEvaluatedHandRank() const {
+    return lastHandRank;
 }

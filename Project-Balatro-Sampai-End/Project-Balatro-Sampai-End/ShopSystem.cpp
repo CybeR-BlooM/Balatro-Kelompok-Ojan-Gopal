@@ -16,7 +16,7 @@ void ShopSystem::enterShop(RunSessionState& state, JokerManager& jokerManager) {
 
     while (inShop) {
         std::cout << "\n=========================================================\n";
-        std::cout << " 🛒 SELAMAT DATANG DI TOKO (SHOP PHASE) 🛒 \n";
+        std::cout << " [SHOP] SELAMAT DATANG DI TOKO (SHOP PHASE) [SHOP] \n";
         std::cout << " DOMPET KAMU: $" << state.money << " | REROLL GRATIS: " << state.freeRerolls << "\n";
         std::cout << " SLOT JOKER KAMU: " << jokerManager.size() << " / 5\n"; // Asumsi maksimal 5
         std::cout << "=========================================================\n";
