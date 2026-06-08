@@ -5,7 +5,10 @@
 HandRank PairChecker::check(const ChosenHand& hand) {
     std::cout << "-> Mengecek apakah kartu ini Pair...\n";
 
-    if (hand.cards.size() == 5) {
+    // --- [PERBAIKAN] ---
+    // Ubah syarat dari == 5 menjadi >= 2.
+    // Karena Pair hanya butuh minimal 2 kartu untuk bisa terbentuk.
+    if (hand.cards.size() >= 2) {
         // 1. Membuat Tabel Frekuensi
         std::map<int, int> rankCounts;
         for (const Card& c : hand.cards) {
@@ -16,7 +19,9 @@ HandRank PairChecker::check(const ChosenHand& hand) {
         bool isPair = false;
         // Format [rank, count] adalah fitur C++ modern untuk membaca map dengan mudah
         for (auto const& [rank, count] : rankCounts) {
-            if (count == 2) {
+            // --- [PERBAIKAN] ---
+            // Ubah dari == 2 menjadi >= 2 agar lebih aman
+            if (count >= 2) {
                 isPair = true;
                 break; // Ketemu 1 Pair, langsung berhenti mencari
             }
